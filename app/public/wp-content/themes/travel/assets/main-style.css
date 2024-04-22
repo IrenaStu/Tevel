@@ -6,9 +6,8 @@
 
 
 
-.site-header{
-
-   
+.site-branding{
+    padding-top: 32px;
 }
 
 .travel-header {
@@ -46,6 +45,7 @@
 .navigation-items{
     display: flex;
     gap: 411px;
+     padding-top: 59px;
 }
 .header-menu{
     display: flex;
@@ -161,4 +161,85 @@ text-decoration: none;
      z-index: 0;
      }
   
-  
+  /* HOME SECTION 2 */
+.home-section-2 {
+    width: 100%;
+    max-width: 1728px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin-bottom: 88px;
+    background-color: #FFFFFF;
+    position: absolute;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 95px;
+}
+
+.section-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 63px;
+}
+
+.our-services {
+    width: 416px;
+    height: 232px;
+    background: #F9F9F9;
+    border-radius: 15px;
+    padding: 40px 50px 45px 20px;
+}
+
+.our-services:nth-child(2) {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+
+.our-services-img {
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    overflow: visible;
+    margin-bottom: 36px;
+}
+
+.our-services-img img {
+    height: 100%;
+    width: auto;
+}
+
+.services-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin-bottom: 19px;
+}
+
+.services-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
