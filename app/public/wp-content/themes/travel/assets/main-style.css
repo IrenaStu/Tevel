@@ -6,9 +6,8 @@
 
 
 
-.site-header{
-
-   
+.site-branding{
+    padding-top: 32px;
 }
 
 .travel-header {
@@ -46,6 +45,7 @@
 .navigation-items{
     display: flex;
     gap: 411px;
+     padding-top: 59px;
 }
 .header-menu{
     display: flex;
