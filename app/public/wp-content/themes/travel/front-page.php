@@ -15,7 +15,6 @@ $services_id = $second_section['services'];
   ?>
 
 <main class="home-page">
-  
     <!-- first section -->
     <section class="home-section-1">
     <?php if($mountain): ?>
@@ -27,9 +26,7 @@ $services_id = $second_section['services'];
         <?php if (isset($imagination_button['url'])): ?>
         <a href="<?php echo $imagination_button['url'] ?>" class="imagination-button"><?php echo $imagination_button['title'] ?></a>
         <?php endif; ?>
-      </div>
-      
-      
+      </div>   
     </section>
   
    <!-- second section -->
