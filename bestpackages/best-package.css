@@ -1,0 +1,308 @@
+*{
+    background-color: #ECF1F0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+h2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 59px;
+    margin-left: 657px;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 52px;
+}
+
+.buttons button{
+    height: 60px;
+    width: 180px;
+    background-color: #00A651;
+    border: #00A651;
+    border-radius: 10px;
+    margin-left: 155px;
+}
+
+.buttons a{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #00A651;
+}
+
+.gray-btn  button{
+    background-color: #666666;
+    margin-left: 74px;
+}
+
+.gray-btn a{
+    background-color: #666666;
+}
+
+.posters{
+    display: flex;
+}
+
+.indonesia {
+    width: 434px;
+    height: 514px;
+    margin-top: 107px;
+    margin-left: 155px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    background-image: url(indonesia.png);
+    background-repeat: no-repeat;
+}
+
+.indonesia {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.indonesia h3{
+    margin-top: 357px;
+    margin-left: 15px;
+    width: 150px;
+    height: 27px;
+    background-color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+.indonesia h4{
+    margin-top: 357px;
+    margin-left: 115px;
+    width: 150px;
+    height: 27px;
+    background-color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+.indonesia p{
+    margin-top: -10px;
+    margin-left: 15px;
+    background-color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    margin-right: 93px;
+}
+
+.indonesia img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 22px;
+    margin-left: 15px;
+}
+
+.indonesia span {
+    margin-bottom: 17px;
+    margin-left: 2px;
+    background-color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+}
+
+.indonesia h5{
+    margin-left: 335px;
+    background-color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    margin-top: -45px;
+    margin-right: 11px;
+}
+
+
+.japan {
+    width: 434px;
+    height: 514px;
+    margin-top: 107px;
+    margin-left: 74px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    background-image: url(japan.png);
+    background-repeat: no-repeat;
+}
+
+.japan {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.japan h3{
+    margin-top: 357px;
+    margin-left: 15px;
+    width: 150px;
+    height: 27px;
+    background-color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+.japan h4{
+    margin-top: 357px;
+    margin-left: 115px;
+    width: 150px;
+    height: 27px;
+    background-color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+.japan p{
+    margin-top: -10px;
+    margin-left: 15px;
+    background-color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    margin-right: 93px;
+}
+
+.japan img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 22px;
+    margin-left: 15px;
+}
+
+.japan span {
+    margin-bottom: 17px;
+    margin-left: 2px;
+    background-color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+}
+
+.japan h5{
+    margin-left: 335px;
+    background-color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    margin-top: -45px;
+    margin-right: 11px;
+    text-decoration: underline #000000;
+}
+
+
+.mountains {
+    width: 434px;
+    height: 514px;
+    margin-top: 107px;
+    margin-left: 74px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    background-image: url(mountains.png);
+    background-repeat: no-repeat;
+}
+
+
+.mountains {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mountains h3{
+    margin-top: 357px;
+    margin-left: 15px;
+    width: 150px;
+    height: 27px;
+    background-color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+.mountains h4{
+    margin-top: 357px;
+    margin-left: 115px;
+    width: 150px;
+    height: 27px;
+    background-color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+.mountains p{
+    margin-top: -10px;
+    margin-left: 15px;
+    background-color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    margin-right: 93px;
+}
+
+.mountains img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 22px;
+    margin-left: 15px;
+}
+
+.mountains span {
+    margin-bottom: 17px;
+    margin-left: 2px;
+    background-color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+}
+
+.mountains h5{
+    margin-left: 335px;
+    background-color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    margin-top: -45px;
+    margin-right: 11px;
+    text-decoration: underline #000000;
+}
+
+button {
+    width: 300px;
+    height: 70px;
+    background-color: #00A651;
+    border-radius: 10px;
+    border: #00A651;
+    margin-top: 98px;
+    margin-left: 730px;
+}
+
+button a{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    background-color: #00A651;
+    color: #FFFFFF;
+}
