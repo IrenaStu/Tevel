@@ -50,8 +50,8 @@
 		</nav><!-- #site-navigation -->
 		</div>
 		<div class="search-icons">
-			<a href="" > <img src="<?php echo get_template_directory_uri() . '/assets/imag/star.png'; ?>" alt=""></a>
-			<a href=""> <img src="<?php echo get_template_directory_uri() . '/assets/imag/search.png'; ?>" alt=""></a>
+			<a href="" > <img src="<?php echo get_template_directory_uri() . '/assets/image/star.png'; ?>" alt=""></a>
+			<a href=""> <img src="<?php echo get_template_directory_uri() . '/assets/image/search.png'; ?>" alt=""></a>
 		</div>
 		</div>
 		</div>
