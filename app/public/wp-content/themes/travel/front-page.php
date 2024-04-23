@@ -65,3 +65,9 @@ $services_id = $second_section['services'];
 </section>
 <!-- end of the second section --> 
 </main>
+
+
+<?php
+
+get_footer();
+  ?>
