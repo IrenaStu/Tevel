@@ -242,6 +242,149 @@ text-decoration: none;
     line-height: 22px;
     color: #000000;
 }
+
+/* HOME SECTION 3 */
+.home-section-3 {
+    position: absolute;
+    padding: 81px 0;
+    max-width: 1751px;
+    width: 100%;
+    height: auto;
+    top: 1865px;
+    background: rgba(0, 88, 83, 0.05);
+    margin: 0 auto;
+}
+
+.map-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    width: 1184px;
+    height: 622px;
+    opacity: 65%;
+}
+
+.third-section-description {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 118px;
+}
+
+.third-section-title {
+    max-width: 518px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 0;
+}
+
+.third-section-text {
+    max-width: 495px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 118px;
+}
+
+.section-third-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 19px;
+}
+
+.section-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.best-services-container {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 136px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.our-best-services {
+    background: #FFFFFF;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+}
+
+.our-best-services-img {
+    margin-bottom: 0;
+    margin-top: 42px;
+}
+
+.our-best-services-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    margin-bottom: 20px;
+}
+
+.our-best-services h3 {
+    margin-top: 25px;
+}
+
+.our-best-services p {
+    margin-top: 0;
+}
+
+.bestservices-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.best-services-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+}
+
+.best-services-text-1 {
+    width: 103px;
+}
+
+.best-services-text-2 {
+    width: 91px;
+}
+
+.best-services-text-3 {
+    width: 126px;
+}
+
+.best-services-text-4 {
+    width: 129px;
+}
+
 /* Footer-text */
 .footer-text{
     max-width: 230px;
