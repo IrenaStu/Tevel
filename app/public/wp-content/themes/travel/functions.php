@@ -51,6 +51,8 @@ function travel_setup() {
 		array(
 			'menu-1' => esc_html__( 'Primary', 'travel' ),
 			'menu-2' => esc_html__( 'Secondary', 'travel' ),
+			'menu-3' => esc_html__( 'third', 'trevel' ),
+			'menu-4' => esc_html__( 'fourth', 'trevel' ),
 		)
 	);
 
