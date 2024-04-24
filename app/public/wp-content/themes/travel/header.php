@@ -50,11 +50,32 @@
 			);
 			?>
 		</nav><!-- #site-navigation -->
-		</div>
-		<div class="search-icons">
+		<div class="hamburger-menu">
+			<input type="checkbox" id="menu">
+			<label for="menu">
+			<span class="hamburger-menu-icon">&#9776;</span>
+			</label>
+			<div class="sidebar-nav">
+			<?php
+			wp_nav_menu(
+				array(
+					'theme_location' => 'menu-1',
+					'menu_id'        => 'primary-menu-mobile',
+					'menu_class'     => 'header-menu',
+				)
+			);
+			?>
+			<div class="sidebar-icons">
 			<a href="" > <img src="<?php echo get_template_directory_uri() . '/assets/image/star.png'; ?>" alt=""></a>
 			<a href=""> <img src="<?php echo get_template_directory_uri() . '/assets/image/search.png'; ?>" alt=""></a>
 		</div>
+			</div>
+		</div>
+		<div class=" search-icons">
+			<a href="" > <img src="<?php echo get_template_directory_uri() . '/assets/image/star.png'; ?>" alt=""></a>
+			<a href=""> <img src="<?php echo get_template_directory_uri() . '/assets/image/search.png'; ?>" alt=""></a>
+		</div>
+	
 		</div>
 		</div>
 		</div>
