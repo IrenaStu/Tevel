@@ -22,7 +22,6 @@ $best_services_id = $third_section['best_services'];
   ?>
 
 <main class="home-page">
-  
     <!-- first section -->
     <section class="home-section-1">
     <?php if($mountain): ?>
@@ -34,9 +33,7 @@ $best_services_id = $third_section['best_services'];
         <?php if (isset($imagination_button['url'])): ?>
         <a href="<?php echo $imagination_button['url'] ?>" class="imagination-button"><?php echo $imagination_button['title'] ?></a>
         <?php endif; ?>
-      </div>
-      
-      
+      </div>   
     </section>
   
    <!-- second section -->
@@ -127,3 +124,9 @@ $best_services_id = $third_section['best_services'];
 </section>
 <!-- end of the third section -->
 </main>
+
+
+<?php
+
+get_footer();
+  ?>
