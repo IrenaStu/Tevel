@@ -1054,3 +1054,10 @@ Stack trace:
 #2 C:\Users\Admin\Local Sites\tavel-goo\app\public\index.php(17): require('C:\\Users\\Admin\\...')
 #3 {main}
   thrown in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 11
+[25-Apr-2024 14:52:22 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php:11
+Stack trace:
+#0 C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admin\\...')
+#2 C:\Users\Admin\Local Sites\tavel-goo\app\public\index.php(17): require('C:\\Users\\Admin\\...')
+#3 {main}
+  thrown in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 11
