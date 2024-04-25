@@ -18,7 +18,16 @@ $third_section_title = $third_section['title'];
 $third_section_text = $third_section['text'];
 $best_services_id = $third_section['best_servises'];
 // third section
- get_header();
+
+$green_button=get_field('fifth_section_buton');
+
+
+
+
+// echo '<pre>';
+// print_r($buttons);
+// echo '</pre>';
+//  get_header();
   ?>
 
 <main class="home-page">
@@ -123,7 +132,8 @@ $best_services_id = $third_section['best_servises'];
         </div>
 </section>
 <!-- end of the third section -->
-<!-- Tornikes_section -->
+  
+  <!-- Tornikes_section -->
 <div class="tornikes_section">
 	<div class="tony_container">
 
@@ -181,8 +191,7 @@ $best_services_id = $third_section['best_servises'];
 							<img src="<?php echo get_template_directory_uri() . "/assets/image/vector.png" ?>" alt="">
 						</div>
 					</div>
-		
-					<?php
+          	<?php
 									endforeach;
 									?>
 				</div>
@@ -192,7 +201,75 @@ $best_services_id = $third_section['best_servises'];
 		</div>
 	</div>
 	</div>
+		
+ <!-- section 5 -->
+ <section class="Home-section-5">
+<h2 class="section5-title">Best Packages For You</h2>
+
+<div class="buttons-group">
+<?php
+	$buttons = get_posts(array("post_type" => "button",
+                              "posts_per_page" => -1,));
+     $buttons = array_reverse($buttons);
+	foreach ($buttons as $button) :
+	$button_link = get_field('button_link', $button->ID);
+    $button_name = get_field('button_name', $button->ID);
+
+?>
+ <a href="<?php echo $button_link; ?>" class="button-package"><?php echo esc_html($button_name); ?></a>
+    <?php
+        endforeach;
+    ?>
+  </div>
+  
+  <div class="posters">
+  <?php
+  $packages = get_posts(array("post_type" => "package"));
+                                    
+      foreach ($packages as $package) :
+ $package_img = get_field('package_img', $package->ID);
+ $package_days = get_field('packages_days', $package->ID);
+ $package_value = get_field('package_value', $package->ID);
+ $package_desc = get_field('package_desc', $package->ID);
+ $package_loc_img = get_field('package_loc_img', $package->ID);
+ $package_loc_name = get_field('package_loc_name', $package->ID);
+ $package_button = get_field('package_button', $package->ID);
+ $knowmore_link = get_field('knowmore_link', $package->ID);
+ ?>
+    
+  
+<div class="indonesia">
+<img class="image-indonesia" src="<?php echo esc_url($package_img['url']); ?>"  alt=" ">
+    <div class="indonesia-description">
+        <div class="price">
+            <h3><?php echo $package_days; ?></h3>
+            <h4><?php echo $package_value; ?></h4>
+        </div>
+        <div class="explore-p">
+            <p><?php echo $package_desc; ?></p>
+        </div>
+        <div class="know-more-flex">
+            <div class="little-img"> 
+                <img src="<?php echo esc_url($package_loc_img['url']); ?>" alt="">
+              </div>
+              <div class="span-more">
+             <h3 ><?php echo $package_loc_name; ?></h3>
+            <h5 ><?php echo $knowmore_link; ?></h5>
+          </div>    
+        </div>
+    </div>
+</div>
+    <?php
+endforeach;
+?>
+   </div>
+            <a href="<?php echo $contact_button['url']; ?>" class="button-green">Discover More</a>
+</section>
+
+
+				
 	
+
 
 <?php
 

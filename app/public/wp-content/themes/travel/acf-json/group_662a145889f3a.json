@@ -1,10 +1,10 @@
 {
-    "key": "group_66293a69218ea",
-    "title": "Buttonli",
+    "key": "group_662a145889f3a",
+    "title": "Buttons",
     "fields": [
         {
-            "key": "field_66293a69bdce1",
-            "label": "button link",
+            "key": "field_662a14590a243",
+            "label": "Button Link",
             "name": "button_link",
             "aria-label": "",
             "type": "link",
@@ -17,6 +17,26 @@
                 "id": ""
             },
             "return_format": "array"
+        },
+        {
+            "key": "field_662a14d91b13f",
+            "label": "Button name",
+            "name": "button_name",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
         }
     ],
     "location": [
@@ -37,5 +57,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1713978087
+    "modified": 1714033899
 }
