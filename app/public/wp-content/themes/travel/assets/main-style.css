@@ -495,6 +495,181 @@ text-decoration: none;
     align-items: center;
     justify-content: center;
 }
+
+/* section-5 */
+.Home-section-5{
+    background-color: #ECF1F0;
+    box-sizing: border-box;
+    text-decoration: none;
+    height: 1094px;
+    max-width: 1729px;
+}
+
+h2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 59px;
+    margin-left: 657px;
+
+}
+
+.buttons-group{
+    display: flex;
+    margin-top: 52px;
+    
+}
+
+.buttons-group .button-package:first-child{
+    padding: 16px 42px 17px;
+    background-color: #00A651 !important;
+    border:#00A651 !important;
+    border-radius: 10px;
+    margin-left: 155px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF !important;
+    background-color: #00A651 !important;
+}
+
+
+
+.buttons-group .button-package{
+    padding: 16px 42px 17px;
+    border-radius: 10px;
+    background-color: #666666 !important;
+    margin-left: 74px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF !important;
+}
+
+
+.posters{
+    display: flex;
+    margin-bottom: 98px;
+
+}
+
+.indonesia {
+    width: 434px;
+    height: 514px;
+    margin-top: 107px;
+    margin-left: 155px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    background-image: url(indonesia.png);
+    background-repeat: no-repeat;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    
+}
+.know-more-flex{
+    display: flex;
+    align-items: center;
+    padding-bottom: 17px;
+    
+}
+
+.indonesia {
+    display: flex;
+    flex-direction: column;
+    
+}
+ .indonesia-description{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    padding-top: 0;
+    height: 176px;
+    
+    
+}
+
+.indonesia .card-mountains{
+    width: 434px;
+    height: 338px;
+    margin-bottom: 0;
+}
+
+.price h3{    
+    background-color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    margin: 0;
+    padding-left: 15px;
+}
+
+.indonesia-description h4{
+    background-color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    margin: 0;
+}
+
+.explore-p{
+    background-color: #FFFFFF !important;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    margin: 0px 15px 0;
+    
+   
+}
+
+.know-more-flex .little-img{
+    width: 20px;
+    height: 20px;
+
+}
+.little-img{
+    margin-left: 15px;
+    margin-bottom: 18px;
+}
+.span-more{
+    display: flex;
+    gap: 203px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    
+   
+}
+.span-more h3{
+    background-color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    box-sizing: border-box;
+   
+
+}
+
+.span-more h5{
+    background-color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    box-sizing: border-box;
+  
+}
+/* end section-5 */
+
+
 .hamburger-menu{
     color: #fff;
     font-size: 24px;
@@ -502,6 +677,7 @@ text-decoration: none;
    
     
 }
+
 /* responsive */
 .hamburger-menu-icon{
     cursor: pointer;

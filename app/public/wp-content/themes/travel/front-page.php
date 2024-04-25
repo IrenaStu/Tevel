@@ -123,6 +123,39 @@ $best_services_id = $third_section['best_servises'];
         </div>
 </section>
 <!-- end of the third section -->
+ <!-- section 5 -->
+ <section class="Home-section-5">
+<h2>Best Packages For You</h2>
+<div class="buttons-group">
+
+    
+ <a href="#" class="button-package">Hot Deals</a>
+  </div>
+  <div class="posters">
+    
+<div class="indonesia">
+    <img src="<?php echo get_template_directory_uri() . '/assets/image/1.png'; ?>" alt="" class="card-mountains">
+    <div class="indonesia-description">
+        <div class="price">
+            <h3>3 Days, 2 Nights</h3>
+            <h4>$500 / Person</h4>
+        </div>
+        <div class="explore-p">
+            <p>Explore the Beauty of the island for 3 days and 2 nights with our travel agency</p>
+        </div>
+        <div class="know-more-flex">
+            <div class="little-img"> 
+              <img src="<?php echo get_template_directory_uri() . '/assets/image/pointer.png'; ?>" alt="">
+              </div>
+              <div class="span-more">
+             <h3 >Indonesia</h3>
+            <h5 >Know More</h5>
+          </div>    
+        </div>
+    </div>
+</div>
+            </div>
+</section>
 
 <?php
 
