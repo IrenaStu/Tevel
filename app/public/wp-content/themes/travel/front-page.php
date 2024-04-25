@@ -390,11 +390,6 @@ endforeach;
 		</div>
 	<!-- end erekles section -->
 
-
-				
-	
-
-
 <?php
 
 get_footer();
