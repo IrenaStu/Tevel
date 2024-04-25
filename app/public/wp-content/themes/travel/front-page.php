@@ -132,6 +132,76 @@ $green_button=get_field('fifth_section_buton');
         </div>
 </section>
 <!-- end of the third section -->
+  
+  <!-- Tornikes_section -->
+<div class="tornikes_section">
+	<div class="tony_container">
+
+		<div class="tornike_title">
+			<div class="second-title-container">
+			<?php
+				$distination_title = get_field('distination_title');
+								
+				?>
+				<h1><?php echo esc_html($distination_title); ?></h1>
+			</div>
+		</div>
+
+		<div class="tornikes_section_2">
+		<div class="containerbig">
+			<div class="containercards">
+				<div class="worldmap">
+
+						<img class = "worldmap-div" src="<?php echo get_template_directory_uri() . "/assets/image/world_map.png" ?>" alt="">
+					
+					<div class="location-1">
+						<img class="location-1-1"  src=" <?php echo get_template_directory_uri() . "/assets/image/location.png" ?>" alt="">
+					</div>
+					<div class="location-2">
+						<img class="location-2-2"  src="<?php echo get_template_directory_uri() . "/assets/image/location.png" ?>" alt="">
+					</div>
+					<div class="location-3">
+						<img class="location-3-3"  src=" <?php echo get_template_directory_uri() . "/assets/image/location.png" ?>" alt="">
+					</div>
+				</div>
+				<div class="imgcontainer">
+									<?php
+									$distinations = get_posts(array("post_type" => "distinations"));
+									$distination_title = get_field('distination_title');
+									foreach ($distinations as $distination) :
+										$distination_img = get_field('distination_img', $distination->ID);
+										$distination_text_1 = get_field('distination_text_1', $distination->ID);
+										$distination_text_2 = get_field('distination_text_2', $distination->ID);
+									?>
+					<div class="smallcontainer">
+						<div class="small-img">
+						<img src="<?php echo esc_url($distination_img['url']); ?>" alt="<?php echo esc_attr($distination->post_title); ?>">
+						</div>
+						<div class="countryname">
+							<h2>
+								<?php echo esc_html($distination_text_1); ?>
+							</h2>
+						</div>
+						<div class="toko_description">
+							<h2>
+								<?php echo esc_html($distination_text_2); ?>
+							</h2>
+						</div>
+						<div class="arrowing">
+							<img src="<?php echo get_template_directory_uri() . "/assets/image/vector.png" ?>" alt="">
+						</div>
+					</div>
+          	<?php
+									endforeach;
+									?>
+				</div>
+			</div>
+		
+		</div>
+		</div>
+	</div>
+	</div>
+		
  <!-- section 5 -->
  <section class="Home-section-5">
 <h2 class="section5-title">Best Packages For You</h2>
@@ -195,6 +265,11 @@ endforeach;
    </div>
             <a href="<?php echo $contact_button['url']; ?>" class="button-green">Discover More</a>
 </section>
+
+
+				
+	
+
 
 <?php
 
