@@ -1,5 +1,5 @@
 {
-    "key": "post_type_66293a247f50a",
+    "key": "post_type_662a05d80487f",
     "title": "Packages",
     "menu_order": 0,
     "active": true,
@@ -83,5 +83,5 @@
     "delete_with_user": false,
     "register_meta_box_cb": "",
     "enter_title_here": "",
-    "modified": 1713977950
+    "modified": 1714030074
 }
