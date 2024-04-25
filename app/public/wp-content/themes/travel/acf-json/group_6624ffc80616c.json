@@ -168,11 +168,11 @@
             ]
         },
         {
-            "key": "field_6628d53509698",
-            "label": "Third Section",
-            "name": "third_section",
+            "key": "field_66293b9677bf6",
+            "label": "distination title",
+            "name": "distination_title",
             "aria-label": "",
-            "type": "group",
+            "type": "text",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -181,6 +181,12 @@
                 "class": "",
                 "id": ""
             },
+
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
             "layout": "block",
             "sub_fields": [
                 {
@@ -405,5 +411,9 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
+
+    "modified": 1713978270
+
     "modified": 1713978635
+
 }
