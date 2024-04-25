@@ -908,37 +908,45 @@ text-decoration: none;
    grid-template-rows: 1fr 1fr;
    gap: 30px;
     }
+
+    .buttons-group .button-package{
+        padding: 13px 10px 5px;
+        font-family: Open Sans;
+font-size: 14px;
+font-weight: 800;
+line-height: 14px;
+text-align: center;
+
+    }
+
+    .button-green{
+        margin-left: 40%;  
+    }
     .posters{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         gap: 30px;
-        margin-left:20%;
-        margin: right 80%; 
+        margin-left:10%;
+        margin: right 90%; 
     }
-    .tornikes_section_2 {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows:  1fr 1fr;
-        align-items: center;
-        margin-bottom: 50px;
-    }
+    
     .worldmap { 
-        grid-template-rows: 1fr;
-        width: 100%;
-        max-width: 700px; /* Limit the maximum width */
+        width: 60%;
+        max-width: 800px; 
         opacity: 0.6;
         margin-bottom: 20px; 
     }
     .imgcontainer {
-        grid-template-rows: 1fr;
         width: 100%;
-        max-width: 700px; /* Limit the maximum width */
+        max-width: 800px; 
         display: flex;
         flex-direction: column;
         gap: 42px;
     }
     .smallcontainer {
+        display: flex;
+        flex-direction: column;
         width: 100%;
         height: auto; /* Adjust height based on content */
         border-radius: 15px;
