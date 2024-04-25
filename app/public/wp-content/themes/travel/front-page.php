@@ -18,7 +18,16 @@ $third_section_title = $third_section['title'];
 $third_section_text = $third_section['text'];
 $best_services_id = $third_section['best_servises'];
 // third section
- get_header();
+
+$green_button=get_field('fifth_section_buton');
+
+
+
+
+// echo '<pre>';
+// print_r($buttons);
+// echo '</pre>';
+//  get_header();
   ?>
 
 <main class="home-page">
@@ -123,6 +132,268 @@ $best_services_id = $third_section['best_servises'];
         </div>
 </section>
 <!-- end of the third section -->
+  
+  <!-- Tornikes_section -->
+<div class="tornikes_section">
+	<div class="tony_container">
+
+		<div class="tornike_title">
+			<div class="second-title-container">
+			<?php
+				$distination_title = get_field('distination_title');
+								
+				?>
+				<h1><?php echo esc_html($distination_title); ?></h1>
+			</div>
+		</div>
+
+		<div class="tornikes_section_2">
+		<div class="containerbig">
+			<div class="containercards">
+				<div class="worldmap">
+
+						<img class = "worldmap-div" src="<?php echo get_template_directory_uri() . "/assets/image/world_map.png" ?>" alt="">
+					
+					<div class="location-1">
+						<img class="location-1-1"  src=" <?php echo get_template_directory_uri() . "/assets/image/location.png" ?>" alt="">
+					</div>
+					<div class="location-2">
+						<img class="location-2-2"  src="<?php echo get_template_directory_uri() . "/assets/image/location.png" ?>" alt="">
+					</div>
+					<div class="location-3">
+						<img class="location-3-3"  src=" <?php echo get_template_directory_uri() . "/assets/image/location.png" ?>" alt="">
+					</div>
+				</div>
+				<div class="imgcontainer">
+									<?php
+									$distinations = get_posts(array("post_type" => "distinations"));
+									$distination_title = get_field('distination_title');
+									foreach ($distinations as $distination) :
+										$distination_img = get_field('distination_img', $distination->ID);
+										$distination_text_1 = get_field('distination_text_1', $distination->ID);
+										$distination_text_2 = get_field('distination_text_2', $distination->ID);
+									?>
+					<div class="smallcontainer">
+						<div class="small-img">
+						<img src="<?php echo esc_url($distination_img['url']); ?>" alt="<?php echo esc_attr($distination->post_title); ?>">
+						</div>
+						<div class="countryname">
+							<h2>
+								<?php echo esc_html($distination_text_1); ?>
+							</h2>
+						</div>
+						<div class="toko_description">
+							<h2>
+								<?php echo esc_html($distination_text_2); ?>
+							</h2>
+						</div>
+						<div class="arrowing">
+							<img src="<?php echo get_template_directory_uri() . "/assets/image/vector.png" ?>" alt="">
+						</div>
+					</div>
+          	<?php
+									endforeach;
+									?>
+				</div>
+			</div>
+		
+		</div>
+		</div>
+	</div>
+	</div>
+		
+ <!-- section 5 -->
+ <section class="Home-section-5">
+<h2 class="section5-title">Best Packages For You</h2>
+
+<div class="buttons-group">
+<?php
+	$buttons = get_posts(array("post_type" => "button",
+                              "posts_per_page" => -1,));
+     $buttons = array_reverse($buttons);
+	foreach ($buttons as $button) :
+	$button_link = get_field('button_link', $button->ID);
+    $button_name = get_field('button_name', $button->ID);
+
+?>
+ <a href="<?php echo $button_link; ?>" class="button-package"><?php echo esc_html($button_name); ?></a>
+    <?php
+        endforeach;
+    ?>
+  </div>
+  
+  <div class="posters">
+  <?php
+  $packages = get_posts(array("post_type" => "package"));
+                                    
+      foreach ($packages as $package) :
+ $package_img = get_field('package_img', $package->ID);
+ $package_days = get_field('packages_days', $package->ID);
+ $package_value = get_field('package_value', $package->ID);
+ $package_desc = get_field('package_desc', $package->ID);
+ $package_loc_img = get_field('package_loc_img', $package->ID);
+ $package_loc_name = get_field('package_loc_name', $package->ID);
+ $package_button = get_field('package_button', $package->ID);
+ $knowmore_link = get_field('knowmore_link', $package->ID);
+ ?>
+    
+  
+<div class="indonesia">
+<img class="image-indonesia" src="<?php echo esc_url($package_img['url']); ?>"  alt=" ">
+    <div class="indonesia-description">
+        <div class="price">
+            <h3><?php echo $package_days; ?></h3>
+            <h4><?php echo $package_value; ?></h4>
+        </div>
+        <div class="explore-p">
+            <p><?php echo $package_desc; ?></p>
+        </div>
+        <div class="know-more-flex">
+            <div class="little-img"> 
+                <img src="<?php echo esc_url($package_loc_img['url']); ?>" alt="">
+              </div>
+              <div class="span-more">
+             <h3 ><?php echo $package_loc_name; ?></h3>
+            <h5 ><?php echo $knowmore_link; ?></h5>
+          </div>    
+        </div>
+    </div>
+</div>
+    <?php
+endforeach;
+?>
+   </div>
+            <a href="<?php echo $contact_button['url']; ?>" class="button-green">Discover More</a>
+</section>
+<!-- Erekles Section -->
+<div class="tony_container">
+			<div class="book_trip_main">
+				<div class="book_trip_poster_front">
+								<?php
+									$trip_poster_card_next_book = get_field('trip_poster_card_next_book');
+								?>
+									<img src="<?php echo esc_url($trip_poster_card_next_book['url']); ?>" alt="">
+						</div>
+				<div class="book_trip_text">
+
+					<div class="book_trip_title">
+						<?php 
+							$book_trip_title = get_field('book_trip_title');
+						?>
+							<h2>
+								<?php echo esc_html($book_trip_title); ?>
+							</h2>
+						
+					</div>
+					<div class="book_trip_text_text">
+						<?php 
+							$book_trip_text = get_field('book_trip_text');
+						?>
+							<h2>
+								<?php echo esc_html($book_trip_text); ?>
+							</h2>
+					</div>
+				</div>
+				<div class="book_trip_cont">
+					<div class="book_trip_desc">
+						<?php
+							$trip_card = get_posts(array("post_type" => "trip_card"));
+							foreach ($trip_card as $trip_cardi) :
+								$trip_card_img = get_field('trip_card_img', $trip_cardi->ID);
+								$trip_card_title = get_field('trip_card_title', $trip_cardi->ID);
+								$trip_card_text = get_field('trip_card_text', $trip_cardi->ID);
+						?>
+						<div class="book_trip_desc_card">
+							<div class="book_trip_desc_card_img">
+								<img src="<?php echo esc_url($trip_card_img['url']); ?>" alt="">	
+							</div>
+							<div class="book_trip_desc_card_text">
+								<div class="book_trip_desc_card_text_title">
+									<h2>
+										<?php echo esc_html($trip_card_title); ?>
+									</h2> 
+								</div>
+								<div class="book_trip_desc_card_text_text">
+									<h2>
+										<?php echo esc_html($trip_card_text); ?>
+									</h2> 
+								</div>
+							</div>
+						</div>
+						<?php
+							endforeach;
+						?> 
+					</div>
+					<div class="book_trip_poster">
+						
+						<div class="book_trip_poster_backg">
+							<img class="book_back" src="<?php echo get_template_directory_uri() . "/assets/images/book_back_2.png" ?>" alt="">
+						</div>
+						<div class="book_trip_poster_card">
+							<div class="book_trip_poster_card_flex">
+
+								<div class="book_trip_poster_card_img">
+									<?php
+									$trip_poster_card_img = get_field('trip_poster_card_img');
+									?>
+									<img src="<?php echo esc_url($trip_poster_card_img['url']); ?>" alt="">
+	
+								</div>
+								<div class="book_trip_poster_card_title">
+									<?php
+									$trip_poster_card_title = get_field('trip_poster_card_title');
+									?>
+										<h2>
+											<?php echo esc_html($trip_poster_card_title); ?>
+										</h2> 
+								</div>
+								<div class="book_trip_poster_card_desc">
+									<?php
+										$trip_poster_card_desc = get_field('trip_poster_card_desc');
+									?>
+										<h2>
+											<?php echo esc_html($trip_poster_card_desc); ?>
+										</h2> 
+								</div>
+								<div class="book_trip_poster_card_mini_images">
+									<?php
+										$trip_poster_card_mini_img_1 = get_field('trip_poster_card_mini_img_1');
+										$trip_poster_card_mini_img_2 = get_field('trip_poster_card_mini_img_2');
+										$trip_poster_card_mini_img_3 = get_field('trip_poster_card_mini_img_3');
+									?>
+									<img src="<?php echo esc_url($trip_poster_card_mini_img_1['url']); ?>" alt="">
+									<img src="<?php echo esc_url($trip_poster_card_mini_img_2['url']); ?>" alt="">
+									<img src="<?php echo esc_url($trip_poster_card_mini_img_3['url']); ?>" alt="">
+								</div>
+								<div class="book_trip_poster_card_booking">
+									<div class="book_trip_poster_card_booking_flex">
+
+										<img class="book_trip_poster_card_booking_building" src="<?php echo get_template_directory_uri() . "/assets/image/building.png" ?>" alt="">
+	
+										<?php
+											$trip_poster_card_book = get_field('trip_poster_card_book');
+										?>
+										<h2>
+											<?php echo esc_html($trip_poster_card_book); ?>
+										</h2>
+									</div>
+
+									<img class="book_trip_poster_card_booking_heart" src="<?php echo get_template_directory_uri() . "/assets/image/heart.png" ?>" alt="">
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- end erekles section -->
+
+
+				
+	
+
 
 <?php
 

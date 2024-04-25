@@ -384,6 +384,129 @@ text-decoration: none;
 .best-services-text-4 {
     width: 129px;
 }
+/* Tornike_section */
+
+.tornike_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 63px;
+}
+
+
+.second-title-container {
+    width: 496px;
+    height: 54px;
+    margin-bottom: 63px;
+}
+
+
+
+.second-title-container h1 {
+    justify-content: center;
+    font-family: 'Open Sans';
+    font-weight: 700px;
+    font-size: 40px;
+    line-height: 54.47px;
+    align-items: center;
+}
+
+.containercards {
+    display: flex;
+    opacity: 0.6px;
+    justify-content: space-between;
+}
+.tornikes_section_2{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.worldmap { 
+    width: 700px;
+    opacity: 0.6;
+    margin-right: 187px;
+}
+.worldmap-div{
+    position: absolute;
+}
+
+.location-1 {
+    position: relative;
+    top: 480px;
+    left: 480px;
+    
+}
+.location-1-1, .location-2-2,.location-3-3 {
+ border-radius: 50%; 
+ border: 1px solid black; 
+ padding: 2px;     
+}
+.location-1-1:hover,
+.location-2-2:hover,
+.location-3-3:hover{
+    border-radius: 50%; 
+    border: 3px solid rgb(118, 181, 233);
+    padding: 0px;     
+   }
+
+.location-2 {
+    position: relative;
+    top: 360px;
+    left: 380px;
+    
+}
+.location-3 {
+    position: relative;
+    top: 620px;
+    left: 690px;
+    
+}
+
+.imgcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    margin-left: 60%;
+}
+
+.smallcontainer {
+    display: flex;
+    align-items: center;
+    width: 659px;
+    height: 223px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 10px 0px #00000014; 
+}
+
+.smallcontainer h2 {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.24px;
+    text-align: center;
+}
+
+.countryname {
+    width: 115px;
+    margin-left: 49px;
+}
+
+.toko_description {
+    width: 93px;
+    margin-left: 30px;
+}
+
+.arrowing {
+    width: 33px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.arrowing img {
+    margin-left: 93px;
+    max-width: none;
+}
 
 /* Footer-text */
 .footer-text{
@@ -495,13 +618,401 @@ text-decoration: none;
     align-items: center;
     justify-content: center;
 }
+
+/* section-5 */
+.Home-section-5{
+    background-color: #ECF1F0;
+    box-sizing: border-box;
+    text-decoration: none;
+    min-height: 1094px;
+    max-width: 1729px;
+    margin-top: 0;
+    margin-bottom: 105px;
+    height: auto;
+}
+
+.section5-title{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    padding: 59px;
+}
+
+.buttons-group{
+    display: flex;
+    margin-top: 52px;
+    
+}
+.buttons-group a{
+    text-decoration: none;
+}
+
+.buttons-group .button-package:first-child{
+    padding: 16px 42px 17px;
+    background-color: #00A651 !important;
+    border:#00A651 !important;
+    border-radius: 10px;
+    margin-left: 155px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF !important;
+    background-color: #00A651 !important;
+    box-sizing: border-box;
+}
+
+
+
+.buttons-group .button-package{
+    padding: 16px 42px 17px;
+    border-radius: 10px;
+    background-color: #666666 !important;
+    margin-left: 74px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF !important;
+    box-sizing: border-box;
+}
+
+
+.posters{
+    display: flex;
+    margin-bottom: 98px;
+    gap: 40px;
+
+}
+
+
+.indonesia .image-indonesia{
+    height: 338px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+
+}
+  
+.indonesia {
+    width: 434px;
+    height: 514px;
+    margin-top: 107px;
+    margin-left: 155px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    
+}
+.know-more-flex{
+    display: flex;
+    align-items: center;
+    padding-bottom: 17px;
+    
+}
+
+.indonesia {
+    display: flex;
+    flex-direction: column;
+    
+}
+ .indonesia-description{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    padding-top: 0;
+    height: 176px;
+    
+    
+}
+
+.indonesia .card-mountains{
+    width: 434px;
+    height: 338px;
+    margin-bottom: 0;
+}
+
+.price h3{    
+    background-color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    margin: 0;
+    padding-left: 15px;
+}
+
+.indonesia-description h4{
+    background-color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    margin: 0;
+}
+
+.explore-p{
+    background-color: #FFFFFF !important;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    margin: 0px 15px 0;
+    
+   
+}
+
+.know-more-flex .little-img{
+    width: 20px;
+    height: 20px;
+
+}
+.little-img{
+    margin-left: 15px;
+    margin-bottom: 18px;
+}
+.span-more{
+    display: flex;
+    gap: 180px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    
+   
+}
+.span-more h3{
+    background-color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    box-sizing: border-box;
+   
+
+}
+
+.span-more h5{
+    background-color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+  
+}
+
+.button-green {
+    font-family: Open Sans;
+    background-color: #00A651 !important;
+    border-radius: 10px;
+    border: #00A651 !important;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.68px;  
+    color: #FFFFFF !important;
+    text-decoration: none;
+    margin-left: 46%;
+    text-align: center;
+    padding: 19px 65px 21px;
+    margin-bottom: 105px;
+
+ 
+    
+}
+
+/* end section-5 */
+
+/* Erekles Section */
+.book_trip_main{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.book_trip_text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 120px;
+}
+.book_trip_title{
+    display: flex;
+    justify-content: center;
+}
+.book_trip_title h2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 54.47px;
+    text-align: center;
+
+}
+.book_trip_text_text{
+    display: flex;
+    justify-content: center;
+}
+.book_trip_text_text h2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.68px;
+    text-align: center;
+}
+.book_trip_cont{
+    display: flex;
+    gap: 180px;
+}
+.book_trip_desc{
+ display: flex;
+ flex-direction: column;
+ gap: 80px;
+}
+.book_trip_desc_card{
+    display: flex;
+    margin-left: 290px;
+}
+.book_trip_desc_card_img{
+    width: 65.21px;
+}
+.book_trip_desc_card_text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 29px;
+    gap: 10px;
+    width: 350px;
+}
+.book_trip_desc_card_text_title{
+    width: 453.66px;
+}
+.book_trip_desc_card_text_title h2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.92px;
+    color:#5E6282;
+}
+.book_trip_desc_card_text_text h2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.92px;
+    color: #5E6282;
+}
+.book_trip_poster{
+    position: relative;
+}
+.book_trip_poster_card{
+    width: 370px;
+    height: 400px;
+    border-radius: 26px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.book_trip_poster_backg{
+    width: 354px;
+    height: 367px;
+    position: absolute;
+    left: 150px;
+    bottom: 150px;
+    z-index: -1;
+}
+.book_trip_poster_card{
+    background-color: #ffffff;
+}
+.book_trip_poster_card_flex{
+    max-width: 321px;
+    margin:0 auto;
+}
+.book_trip_poster_card_img{
+    padding-top: 20px;
+}
+.book_trip_poster_card_title h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.41px;
+    letter-spacing: 0.015em;
+    text-align: left;
+
+}
+.book_trip_poster_card_desc, .book_trip_poster_card_title, .book_trip_poster_card_mini_images {
+    padding: 10px 0 10px;
+}
+.book_trip_poster_card_desc h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.92px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    color: #84829A;
+}
+.book_trip_poster_card_booking_flex{
+    padding-top: 30px;
+}
+.book_trip_poster_card_booking_flex h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.92px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #84829A;
+    padding-left: 15px;
+
+}
+.book_trip_poster_card_mini_images{
+    display: flex;
+    gap: 18px;
+}
+
+
+
+.book_trip_poster_card_booking{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.book_trip_poster_card_booking img{
+    width: 16px;
+    height: 16px;
+}
+.book_trip_poster_card_booking_flex{
+    display: flex;
+    align-items: center;
+}
+.book_trip_main{
+    position: relative;
+}
+.book_trip_poster_front img{
+    box-shadow: 0px 0px 20px 0px rgba(238, 238, 238, 0.5);
+    border-radius: 20px;
+}
+.book_trip_poster_card_booking_heart{
+    z-index: 3;
+    margin-top: 30px;
+}
+.book_trip_poster_front {
+    z-index: 1;
+    position: absolute;
+    left: 1130px;
+    top: 427px;
+}
+/* end erekles section */
+
+
 .hamburger-menu{
     color: #fff;
     font-size: 24px;
-    /* display: none; */
+    display: none;
    
     
 }
+
 /* responsive */
 .hamburger-menu-icon{
     cursor: pointer;
@@ -566,6 +1077,20 @@ text-decoration: none;
     }
     .hamburger-menu-icon{
         display: inline-block;
+    }
+    .buttons-group{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   gap: 30px;
+    }
+    .posters{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 30px;
+        margin-left:20%;
+        margin: right 80%; 
     }
 }
 
