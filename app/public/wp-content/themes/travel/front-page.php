@@ -265,11 +265,130 @@ endforeach;
    </div>
             <a href="<?php echo $contact_button['url']; ?>" class="button-green">Discover More</a>
 </section>
+<!-- Erekles Section -->
+<div class="tony_container">
+			<div class="book_trip_main">
+				<div class="book_trip_poster_front">
+								<?php
+									$trip_poster_card_next_book = get_field('trip_poster_card_next_book');
+								?>
+									<img src="<?php echo esc_url($trip_poster_card_next_book['url']); ?>" alt="">
+						</div>
+				<div class="book_trip_text">
 
+					<div class="book_trip_title">
+						<?php 
+							$book_trip_title = get_field('book_trip_title');
+						?>
+							<h2>
+								<?php echo esc_html($book_trip_title); ?>
+							</h2>
+						
+					</div>
+					<div class="book_trip_text_text">
+						<?php 
+							$book_trip_text = get_field('book_trip_text');
+						?>
+							<h2>
+								<?php echo esc_html($book_trip_text); ?>
+							</h2>
+					</div>
+				</div>
+				<div class="book_trip_cont">
+					<div class="book_trip_desc">
+						<?php
+							$trip_card = get_posts(array("post_type" => "trip_card"));
+							foreach ($trip_card as $trip_cardi) :
+								$trip_card_img = get_field('trip_card_img', $trip_cardi->ID);
+								$trip_card_title = get_field('trip_card_title', $trip_cardi->ID);
+								$trip_card_text = get_field('trip_card_text', $trip_cardi->ID);
+						?>
+						<div class="book_trip_desc_card">
+							<div class="book_trip_desc_card_img">
+								<img src="<?php echo esc_url($trip_card_img['url']); ?>" alt="">	
+							</div>
+							<div class="book_trip_desc_card_text">
+								<div class="book_trip_desc_card_text_title">
+									<h2>
+										<?php echo esc_html($trip_card_title); ?>
+									</h2> 
+								</div>
+								<div class="book_trip_desc_card_text_text">
+									<h2>
+										<?php echo esc_html($trip_card_text); ?>
+									</h2> 
+								</div>
+							</div>
+						</div>
+						<?php
+							endforeach;
+						?> 
+					</div>
+					<div class="book_trip_poster">
+						
+						<div class="book_trip_poster_backg">
+							<img class="book_back" src="<?php echo get_template_directory_uri() . "/assets/images/book_back_2.png" ?>" alt="">
+						</div>
+						<div class="book_trip_poster_card">
+							<div class="book_trip_poster_card_flex">
 
-				
+								<div class="book_trip_poster_card_img">
+									<?php
+									$trip_poster_card_img = get_field('trip_poster_card_img');
+									?>
+									<img src="<?php echo esc_url($trip_poster_card_img['url']); ?>" alt="">
 	
+								</div>
+								<div class="book_trip_poster_card_title">
+									<?php
+									$trip_poster_card_title = get_field('trip_poster_card_title');
+									?>
+										<h2>
+											<?php echo esc_html($trip_poster_card_title); ?>
+										</h2> 
+								</div>
+								<div class="book_trip_poster_card_desc">
+									<?php
+										$trip_poster_card_desc = get_field('trip_poster_card_desc');
+									?>
+										<h2>
+											<?php echo esc_html($trip_poster_card_desc); ?>
+										</h2> 
+								</div>
+								<div class="book_trip_poster_card_mini_images">
+									<?php
+										$trip_poster_card_mini_img_1 = get_field('trip_poster_card_mini_img_1');
+										$trip_poster_card_mini_img_2 = get_field('trip_poster_card_mini_img_2');
+										$trip_poster_card_mini_img_3 = get_field('trip_poster_card_mini_img_3');
+									?>
+									<img src="<?php echo esc_url($trip_poster_card_mini_img_1['url']); ?>" alt="">
+									<img src="<?php echo esc_url($trip_poster_card_mini_img_2['url']); ?>" alt="">
+									<img src="<?php echo esc_url($trip_poster_card_mini_img_3['url']); ?>" alt="">
+								</div>
+								<div class="book_trip_poster_card_booking">
+									<div class="book_trip_poster_card_booking_flex">
 
+										<img class="book_trip_poster_card_booking_building" src="<?php echo get_template_directory_uri() . "/assets/image/building.png" ?>" alt="">
+	
+										<?php
+											$trip_poster_card_book = get_field('trip_poster_card_book');
+										?>
+										<h2>
+											<?php echo esc_html($trip_poster_card_book); ?>
+										</h2>
+									</div>
+
+									<img class="book_trip_poster_card_booking_heart" src="<?php echo get_template_directory_uri() . "/assets/image/heart.png" ?>" alt="">
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- end erekles section -->
 
 <?php
 
