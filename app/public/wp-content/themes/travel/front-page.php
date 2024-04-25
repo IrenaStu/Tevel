@@ -21,13 +21,24 @@ $best_services_id = $third_section['best_servises'];
 
 $green_button=get_field('fifth_section_buton');
 
-
+    $seventh_section = get_field('seventh_section');
+    $seventh_section_impressions_title = $seventh_section['impressions_title'];
+    $seventh_section_impressions_first_cover = $seventh_section['impressions_first_cover'];
+    $seventh_section_impressions_second_cover = $seventh_section['impressions_second_cover'];
+    $seventh_section_impressions_third_cover = $seventh_section['impressions_third_cover'];
+    $impressions_covers = array(
+        'impressions-first-cover' => $seventh_section_impressions_first_cover,
+        'impressions-second-cover' => $seventh_section_impressions_second_cover,
+        'impressions-third-cover' => $seventh_section_impressions_third_cover,
+    );
+    $impressions_id = $seventh_section['impressions'];
+    // seventh section
 
 
 // echo '<pre>';
 // print_r($buttons);
 // echo '</pre>';
-//  get_header();
+ get_header();
   ?>
 
 <main class="home-page">
@@ -327,7 +338,7 @@ endforeach;
 					<div class="book_trip_poster">
 						
 						<div class="book_trip_poster_backg">
-							<img class="book_back" src="<?php echo get_template_directory_uri() . "/assets/images/book_back_2.png" ?>" alt="">
+							<img class="book_back" src="<?php echo get_template_directory_uri() . "/assets/image/book_back_2.png" ?>" alt="">
 						</div>
 						<div class="book_trip_poster_card">
 							<div class="book_trip_poster_card_flex">
@@ -389,6 +400,51 @@ endforeach;
 			</div>
 		</div>
 	<!-- end erekles section -->
+
+	<!-- seventh section -->
+<section class="home-section-7">
+    <div class="title">
+        <h2 class="seventh-title"><?php echo $seventh_section_impressions_title ?></h2>
+    </div>
+    <div class="cover-images">
+        <?php
+            foreach ($impressions_covers as $class => $impressions_cover_id) {
+                if ($impressions_cover_id) {
+                    echo wp_get_attachment_image($impressions_cover_id, 'full', false, array('class' => $class));
+                }
+            }
+        ?>
+    </div>
+    <div class="container">
+        <div class="impressions-container">
+            <?php
+            // Check if services ID is not empty
+            if (!empty($impressions_id)) {
+                // Loop through each service ID
+                foreach ($impressions_id as $impression_id) {
+                    $impression_post = get_post($impression_id);
+                    if ($impression_post) {
+                        ?>
+                        <div class="all-impressions">
+                            <div class="impressions-img">
+                                <a href="<?php echo get_permalink($impression_post); ?>">
+                                    <?php echo get_the_post_thumbnail($impression_post, 'thumbnail'); ?>
+                                </a>
+                            </div>
+                            <div class="impressions-full-content">
+                                <p class="impressions-text"><?php echo get_the_excerpt($impression_post); ?></p>
+                                <h3 class="impressions-title"><?php echo get_the_title($impression_post); ?></h3>
+                            </div>
+                        </div>
+                        <?php
+                    }
+                }
+            }
+            ?>
+        </div>
+    </div>
+</section>
+<!-- end of seventh section -->
 
 <?php
 

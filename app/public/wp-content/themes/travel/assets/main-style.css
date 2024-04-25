@@ -1013,6 +1013,117 @@ text-decoration: none;
 }
 /* end erekles section */
 
+/* HOME SECTION 7 */
+.home-section-7 {
+    max-width: 1728px;
+    width: 100%;
+    height: 835px;
+    left: 0;
+    top: 5311px;
+    margin: 0 auto;
+    padding: 0 62px;
+    margin-bottom: 96px;
+    background: #ECF1F0;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.seventh-title {
+    padding-top: 62px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 59px;
+}
+
+.cover-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 125px;
+    max-width: 1728px;
+    width: 100%;
+    overflow: visible;
+}
+
+.impressions-first-cover {
+    width: 825px;
+    height: 446px;
+    border-radius: 20px;
+    opacity: 37%;
+}
+
+.impressions-second-cover {
+    width: 1228px;
+    height: 536px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.impressions-third-cover {
+    width: 825px;
+    height: 446px;
+    border-radius: 20px;
+    opacity: 37%;
+}
+
+.all-impressions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.impressions-img {
+    position: absolute;
+    box-sizing: border-box;
+    width: 148px;
+    height: 148px;
+    top: 55%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.impressions-full-content {
+    position: absolute;
+    padding: 81px 99px 18px;
+    width: 738px;
+    height: 250px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 59px 9px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    top: 65%;
+    z-index: 0;
+}
+
+.impressions-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    max-width: 541px;
+    width: 100%;
+}
+
+.impressions-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+}
+
 
 .hamburger-menu{
     color: #fff;
