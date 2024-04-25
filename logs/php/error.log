@@ -39,3 +39,9 @@
 [24-Apr-2024 09:31:24 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 18
 [24-Apr-2024 09:31:24 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 19
 [24-Apr-2024 09:55:04 UTC] PHP Warning:  Undefined array key "best_services" in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 19
+[25-Apr-2024 12:05:17 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\User\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 17
+[25-Apr-2024 12:05:17 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\User\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 18
+[25-Apr-2024 12:05:17 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\User\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 19
+[25-Apr-2024 12:09:30 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\User\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 17
+[25-Apr-2024 12:09:30 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\User\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 18
+[25-Apr-2024 12:09:30 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\User\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 19
