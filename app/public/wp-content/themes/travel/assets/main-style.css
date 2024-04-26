@@ -1492,6 +1492,26 @@ text-align: center;
     line-height: 10px;
 
 }
+.footer-nav-flex{
+    gap: 0;
+    margin: 0;
+}
+.footer-text-text{
+    text-align: center;
+
+}
+.footer-logo-text {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24.6px;
+    margin: 0;
+}
+
+.footer-logo-text-span {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 28px;
+}
   /* end contact */
 @media screen and (max-width:768px) {
     .imagination-title{
@@ -1635,9 +1655,3 @@ text-align: center;
     top: 960px;
 }
 }
-    
-   
-
-   
-
-
