@@ -1230,3 +1230,51 @@ Stack trace:
 [26-Apr-2024 10:31:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\User\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 402
 [26-Apr-2024 10:31:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\User\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 403
 [26-Apr-2024 10:31:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\User\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 404
+[26-Apr-2024 10:46:10 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:46:10 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:46:10 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:46:10 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:46:10 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:46:10 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:46:10 UTC] PHP Warning:  Undefined variable $contact_button in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 304
+[26-Apr-2024 10:46:10 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 304
+[26-Apr-2024 10:52:44 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:52:44 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:52:44 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:52:44 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:52:44 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:52:44 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:52:44 UTC] PHP Warning:  Undefined variable $contact_button in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 304
+[26-Apr-2024 10:52:44 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 304
+[26-Apr-2024 10:53:43 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:53:43 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:53:43 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:53:43 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:53:43 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:53:43 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:53:43 UTC] PHP Warning:  Undefined variable $contact_button in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 304
+[26-Apr-2024 10:53:43 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 304
+[26-Apr-2024 10:53:47 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:53:47 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:53:47 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:53:47 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:53:47 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:53:47 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:53:47 UTC] PHP Warning:  Undefined variable $contact_button in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 304
+[26-Apr-2024 10:53:47 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 304
+[26-Apr-2024 10:53:54 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:53:54 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:53:54 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:53:54 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:53:54 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:53:54 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:53:54 UTC] PHP Warning:  Undefined variable $contact_button in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 304
+[26-Apr-2024 10:53:54 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 304
+[26-Apr-2024 10:58:40 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:58:40 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:58:40 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:58:40 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:58:40 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:58:40 UTC] PHP Warning:  Array to string conversion in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 257
+[26-Apr-2024 10:58:40 UTC] PHP Warning:  Undefined variable $contact_button in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 304
+[26-Apr-2024 10:58:40 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Admin\Local Sites\tavel-goo\app\public\wp-content\themes\travel\front-page.php on line 304
