@@ -628,7 +628,11 @@ text-decoration: none;
     max-width: 1729px;
     margin-top: 0;
     margin-bottom: 105px;
-    height: auto;
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 .section5-title{
@@ -642,6 +646,8 @@ text-decoration: none;
 .buttons-group{
     display: flex;
     margin-top: 52px;
+    gap: 80px;
+    justify-content: center;
     
 }
 .buttons-group a{
@@ -653,7 +659,7 @@ text-decoration: none;
     background-color: #00A651 !important;
     border:#00A651 !important;
     border-radius: 10px;
-    margin-left: 155px;
+    
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -668,12 +674,13 @@ text-decoration: none;
     padding: 16px 42px 17px;
     border-radius: 10px;
     background-color: #666666 !important;
-    margin-left: 74px;
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
     font-size: 20px;
     color: #FFFFFF !important;
     box-sizing: border-box;
+    margin: 0;
+
 }
 
 
@@ -681,6 +688,7 @@ text-decoration: none;
     display: flex;
     margin-bottom: 98px;
     gap: 40px;
+    justify-content: center;
 
 }
 
@@ -696,7 +704,6 @@ text-decoration: none;
     width: 434px;
     height: 514px;
     margin-top: 107px;
-    margin-left: 155px;
     background-color: #FFFFFF;
     border-radius: 10px;
     
@@ -817,15 +824,11 @@ text-decoration: none;
     line-height: 32.68px;  
     color: #FFFFFF !important;
     text-decoration: none;
-    margin-left: 46%;
-    text-align: center;
-    padding: 19px 65px 21px;
+    padding: 21px 65px;
     margin-bottom: 105px;
-
- 
-    
 }
 
+ 
 /* end section-5 */
 
 
@@ -919,9 +922,6 @@ text-align: center;
 
     }
 
-    .button-green{
-        margin-left: 40%;  
-    }
     .posters{
         display: grid;
         grid-template-columns: 1fr;
