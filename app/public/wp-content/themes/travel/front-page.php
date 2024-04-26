@@ -16,7 +16,7 @@ $third_section = get_field('third_section');
 $map = isset($third_section['map']) ? $third_section['map'] : null;
 $third_section_title = $third_section['title'];
 $third_section_text = $third_section['text'];
-$best_services_id = $third_section['best_servises'];
+$best_services_id = $third_section['best_services'];
 // third section
 
 $green_button=get_field('fifth_section_buton');
